@@ -2,7 +2,7 @@
 
 Personal background monitor for Pokémon products at Pokémon Center, Target, Walmart, Best Buy, and GameStop. GitHub Actions checks every five minutes and sends an iPhone push notification through ntfy when likely availability appears.
 
-The repository also includes Sam's mobile-friendly Little Pokédex. It shows the Top 5 chase pulls for every tracked booster expansion, including card art, card number, rarity, and an approximate raw market value.
+The repository also includes Sam's mobile-friendly Little Pokédex. It shows the Top 5 chase pulls for every tracked booster expansion, including card art, card number, rarity, and an approximate raw market value. It reads the monitor's latest `state.json` and displays each store's most recent status and check time.
 
 ## What it watches
 

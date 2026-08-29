@@ -46,6 +46,32 @@ const sets = [
 const container=document.querySelector("#sets");
 const template=document.querySelector("#set-template");
 const money=new Intl.NumberFormat("en-US",{style:"currency",currency:"USD",maximumFractionDigits:2});
+const statusUrl="https://raw.githubusercontent.com/santana121991-santiago/pokemon-restock-radar/main/state.json";
+let liveState={};
+
+function matchingChecks(set){
+  const aliases=set.name==="Perfect Order"?["perfect order","poké pad","poke pad"]:[set.name.toLowerCase()];
+  return Object.values(liveState).filter(item=>aliases.some(name=>(item.name||"").toLowerCase().includes(name)));
+}
+
+function statusSummary(set){
+  const checks=matchingChecks(set);
+  if(checks.some(item=>item.available)) return '<span class="status-pill in-stock">● POSSIBLE STOCK</span>';
+  if(checks.length) return '<span class="status-pill checked">● CHECKED</span>';
+  return '<span class="status-pill waiting">○ WAITING FOR CHECK</span>';
+}
+
+function stockPanel(set){
+  const checks=matchingChecks(set);
+  if(!checks.length) return '<section class="stock-panel"><h3>📡 Restock radar</h3><p class="no-check">No successful store check yet. Your background alert system will update this automatically.</p></section>';
+  const rows=checks.map(item=>{
+    const label=item.available?"Possible stock":"Not confirmed";
+    const cls=item.available?"available":"unavailable";
+    const when=item.checkedAt?new Date(item.checkedAt).toLocaleString("en-US",{timeZone:"America/Los_Angeles",month:"short",day:"numeric",hour:"numeric",minute:"2-digit"})+" PT":"Waiting";
+    return `<a class="stock-row" href="${item.url}" target="_blank" rel="noopener"><span><strong>${item.store}</strong><small>Checked ${when}</small></span><b class="${cls}">${label}</b></a>`;
+  }).join("");
+  return `<section class="stock-panel"><h3>📡 Restock radar <span>LIVE</span></h3>${rows}<p class="alert-note">Your iPhone alert is still automatic. Tap a store to check it yourself.</p></section>`;
+}
 
 function render(query=""){
   container.replaceChildren();
@@ -59,7 +85,8 @@ function render(query=""){
     const pulls=node.querySelector(".pulls");
     node.querySelector(".set-icon").textContent=set.icon;
     node.querySelector("strong").textContent=set.name;
-    node.querySelector("small").textContent=set.note||"Tap to reveal the Top 5 pulls";
+    node.querySelector("small").innerHTML=`${set.note||"Tap to see stock + Top 5 pulls"} ${statusSummary(set)}`;
+    pulls.insertAdjacentHTML("afterbegin",stockPanel(set));
     set.pulls.forEach((pull,index)=>{
       const [name,number,rarity,value,image]=pull;
       const row=document.createElement("div");row.className="pull";
@@ -75,3 +102,14 @@ function render(query=""){
 
 document.querySelector("#search").addEventListener("input",e=>render(e.target.value));
 render();
+
+async function refreshStock(){
+  try{
+    const response=await fetch(`${statusUrl}?t=${Date.now()}`,{cache:"no-store"});
+    if(!response.ok) throw new Error(`HTTP ${response.status}`);
+    liveState=await response.json();
+    render(document.querySelector("#search").value);
+  }catch(error){console.warn("Restock status could not refresh",error)}
+}
+refreshStock();
+setInterval(refreshStock,60000);
