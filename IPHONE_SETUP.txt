@@ -1,0 +1,16 @@
+IPHONE SETUP — SAM'S POKEMON RESTOCK RADAR
+
+1. In ChatGPT, download pokemon-restock-radar.zip.
+2. Open the iPhone Files app, go to Downloads, and tap the ZIP once. A normal folder will appear.
+3. In Safari, open:
+   https://github.com/santana121991-santiago/pokemon-restock-radar
+4. Tap "Add file" and then "Upload files."
+5. Tap "Choose your files" > "Browse," open the unzipped folder, select all seven files, and upload them.
+6. Scroll down and tap "Commit changes."
+7. In the repository, open restock-alerts.yml and tap the pencil/Edit button.
+8. Change its filename to:
+   .github/workflows/restock-alerts.yml
+9. Tap "Commit changes" again.
+10. Return to ChatGPT. The next step will privately connect ntfy and run the first test.
+
+Do not put your ntfy topic inside any public file. It will be added later as a protected GitHub Actions secret.

@@ -1,0 +1,58 @@
+{
+  "6c30ecf11c444bda": {
+    "name": "Pokémon Center TCG new arrivals",
+    "store": "Pokémon Center",
+    "url": "https://www.pokemoncenter.com/category/trading-card-game",
+    "available": false,
+    "contentHash": "8df8feef0aa62101c9eb72fa054aa5490dac23da1abf401c430f1c9ab8161177",
+    "checkedAt": 1787985512009
+  },
+  "586a7ad3f16ac5fc": {
+    "name": "Pitch Black products",
+    "store": "Target",
+    "url": "https://www.target.com/s?searchTerm=pokemon+pitch+black",
+    "available": false,
+    "contentHash": "3575535dca51775e63bfd8b28587e371a86b3dbb34c3780c7300624eba3adc8e",
+    "checkedAt": 1787985512009
+  },
+  "548cecfe462d75bb": {
+    "name": "Perfect Order products",
+    "store": "Target",
+    "url": "https://www.target.com/s?searchTerm=pokemon+perfect+order",
+    "available": false,
+    "contentHash": "3575535dca51775e63bfd8b28587e371a86b3dbb34c3780c7300624eba3adc8e",
+    "checkedAt": 1787985512009
+  },
+  "e2cd192cc54e381f": {
+    "name": "Chaos Rising products",
+    "store": "Walmart",
+    "url": "https://www.walmart.com/search?q=pokemon+chaos+rising",
+    "available": false,
+    "contentHash": "5b13067e7d4531a0d2ed82a68b019160d2d71309ecf7796e48d43923aaedbf2e",
+    "checkedAt": 1787985512009
+  },
+  "8d0ff369f18aa810": {
+    "name": "Poké Pad products",
+    "store": "Walmart",
+    "url": "https://www.walmart.com/search?q=pokemon+poke+pad+cards",
+    "available": false,
+    "contentHash": "bec8484501c553e8505937913a104cf5ef2ad85e3ea63e74a0bf46d8f8970b36",
+    "checkedAt": 1787985512009
+  },
+  "8bf0cc6de457f5f9": {
+    "name": "Ascended Heroes products",
+    "store": "Best Buy",
+    "url": "https://www.bestbuy.com/site/searchpage.jsp?st=pokemon+ascended+heroes",
+    "available": false,
+    "contentHash": "42d61abd9cea53170480f304ccd35ba93232d1aa9e9e7e140dc62bc99b7c8860",
+    "checkedAt": 1787985512009
+  },
+  "1b6d4f597cf69039": {
+    "name": "Surging Sparks products",
+    "store": "Best Buy",
+    "url": "https://www.bestbuy.com/site/searchpage.jsp?st=pokemon+surging+sparks",
+    "available": false,
+    "contentHash": "be7a6a5c4863889f6e0f3779f61f51036b3270805c850f4e57b82dfccfa6091a",
+    "checkedAt": 1787985512009
+  }
+}

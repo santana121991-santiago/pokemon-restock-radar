@@ -1,0 +1,12 @@
+[
+  {"name":"Pitch Black Pokémon Center ETB","store":"Pokémon Center","mode":"availability","url":"https://www.pokemoncenter.com/product/10-10416-112/pokemon-tcg-mega-evolution-pitch-black-pokemon-center-elite-trainer-box","keywords":["pitch black"]},
+  {"name":"Pokémon Center TCG new arrivals","store":"Pokémon Center","mode":"discovery","url":"https://www.pokemoncenter.com/category/trading-card-game","keywords":["pitch black","chaos rising","ascended heroes","phantasmal flames","perfect order","poké pad","surging sparks","prismatic evolutions"]},
+  {"name":"Pitch Black products","store":"Target","mode":"discovery","url":"https://www.target.com/s?searchTerm=pokemon+pitch+black","keywords":["pitch black"]},
+  {"name":"Perfect Order products","store":"Target","mode":"discovery","url":"https://www.target.com/s?searchTerm=pokemon+perfect+order","keywords":["perfect order"]},
+  {"name":"Chaos Rising products","store":"Walmart","mode":"discovery","url":"https://www.walmart.com/search?q=pokemon+chaos+rising","keywords":["chaos rising"]},
+  {"name":"Poké Pad products","store":"Walmart","mode":"discovery","url":"https://www.walmart.com/search?q=pokemon+poke+pad+cards","keywords":["poké pad","poke pad"]},
+  {"name":"Ascended Heroes products","store":"Best Buy","mode":"discovery","url":"https://www.bestbuy.com/site/searchpage.jsp?st=pokemon+ascended+heroes","keywords":["ascended heroes"]},
+  {"name":"Surging Sparks products","store":"Best Buy","mode":"discovery","url":"https://www.bestbuy.com/site/searchpage.jsp?st=pokemon+surging+sparks","keywords":["surging sparks"]},
+  {"name":"Phantasmal Flames products","store":"GameStop","mode":"discovery","url":"https://www.gamestop.com/search/?q=pokemon+phantasmal+flames","keywords":["phantasmal flames"]},
+  {"name":"Prismatic Evolutions products","store":"GameStop","mode":"discovery","url":"https://www.gamestop.com/search/?q=pokemon+prismatic+evolutions","keywords":["prismatic evolutions"]}
+]
