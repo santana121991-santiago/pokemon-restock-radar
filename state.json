@@ -5,7 +5,7 @@
     "url": "https://www.pokemoncenter.com/category/trading-card-game",
     "available": false,
     "contentHash": "8df8feef0aa62101c9eb72fa054aa5490dac23da1abf401c430f1c9ab8161177",
-    "checkedAt": 1789039011480
+    "checkedAt": 1789052596965
   },
   "586a7ad3f16ac5fc": {
     "name": "Pitch Black products",
@@ -13,7 +13,7 @@
     "url": "https://www.target.com/s?searchTerm=pokemon+pitch+black",
     "available": false,
     "contentHash": "3575535dca51775e63bfd8b28587e371a86b3dbb34c3780c7300624eba3adc8e",
-    "checkedAt": 1789039011480
+    "checkedAt": 1789052596965
   },
   "548cecfe462d75bb": {
     "name": "Perfect Order products",
@@ -21,38 +21,38 @@
     "url": "https://www.target.com/s?searchTerm=pokemon+perfect+order",
     "available": false,
     "contentHash": "3575535dca51775e63bfd8b28587e371a86b3dbb34c3780c7300624eba3adc8e",
-    "checkedAt": 1789039011480
+    "checkedAt": 1789052596965
   },
   "e2cd192cc54e381f": {
     "name": "Chaos Rising products",
     "store": "Walmart",
     "url": "https://www.walmart.com/search?q=pokemon+chaos+rising",
     "available": false,
-    "contentHash": "65a1e581cee47bbe35e79ab184f76751bbc050030d666b9910e98c0e753ff916",
-    "checkedAt": 1789039011480
+    "contentHash": "6fa0617f1c3867b443825c7c6ec122f063659b4cc3f1c995c5514713b77cd729",
+    "checkedAt": 1789052596965
   },
   "8d0ff369f18aa810": {
     "name": "Poké Pad products",
     "store": "Walmart",
     "url": "https://www.walmart.com/search?q=pokemon+poke+pad+cards",
     "available": false,
-    "contentHash": "7ea217c541b48c6bf17ac038a309d073fbc93cda8984ee7909b60c992c987fe6",
-    "checkedAt": 1789039011480
+    "contentHash": "22d4c1fe44def7818ab67443f55407a2fb4f79276b981cb6a905744164238f40",
+    "checkedAt": 1789052596965
   },
   "8bf0cc6de457f5f9": {
     "name": "Ascended Heroes products",
     "store": "Best Buy",
     "url": "https://www.bestbuy.com/site/searchpage.jsp?st=pokemon+ascended+heroes",
     "available": false,
-    "contentHash": "6b943dd0c230268d894f49d8f358b23ee45a95bf3d1825f8d2f9751cfb7a4fc9",
-    "checkedAt": 1789039011480
+    "contentHash": "eaea130bc995fb96c04f87ad6972f29a3a16ce2b3adb59f0e0b965e0e2f1aa95",
+    "checkedAt": 1789052596965
   },
   "1b6d4f597cf69039": {
     "name": "Surging Sparks products",
     "store": "Best Buy",
     "url": "https://www.bestbuy.com/site/searchpage.jsp?st=pokemon+surging+sparks",
     "available": false,
-    "contentHash": "1dd6eb17fbbac7010205ad18af5337939e5899d387c5577533534a8582eee54e",
-    "checkedAt": 1789039011480
+    "contentHash": "8e41c13d08dc4c19620401d143334085b5a35ca99b86d9aeae6e551ea24815e8",
+    "checkedAt": 1789052596965
   }
 }
