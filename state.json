@@ -5,7 +5,7 @@
     "url": "https://www.pokemoncenter.com/category/trading-card-game",
     "available": false,
     "contentHash": "13b8cef14a73f543161c69248868036864bc9094c30ba3ed9e5526d7dc6bd8ca",
-    "checkedAt": 1794985946610
+    "checkedAt": 1795019467842
   },
   "586a7ad3f16ac5fc": {
     "name": "Pitch Black products",
@@ -13,7 +13,7 @@
     "url": "https://www.target.com/s?searchTerm=pokemon+pitch+black",
     "available": false,
     "contentHash": "71f8885d31bec35d25bf1745d64c837c9425b8b41fafc44162684fb13f16d959",
-    "checkedAt": 1794985946610
+    "checkedAt": 1795019467842
   },
   "548cecfe462d75bb": {
     "name": "Perfect Order products",
@@ -21,31 +21,31 @@
     "url": "https://www.target.com/s?searchTerm=pokemon+perfect+order",
     "available": false,
     "contentHash": "1122d8f6c5a060705e3c5adda14d59fcac6c2491218eb409c0fe0d4711bc2a8b",
-    "checkedAt": 1794985946610
+    "checkedAt": 1795019467842
   },
   "e2cd192cc54e381f": {
     "name": "Chaos Rising products",
     "store": "Walmart",
     "url": "https://www.walmart.com/search?q=pokemon+chaos+rising",
     "available": false,
-    "contentHash": "e746f139992630ae33c86be27f4182bbe847e52047a220a700d74214e68cf092",
-    "checkedAt": 1794985946610
+    "contentHash": "d9f435b53e0c69e753f7c5f8bce231cfb347390d438c52637bb6467b0fde9621",
+    "checkedAt": 1795019467842
   },
   "8d0ff369f18aa810": {
     "name": "Poké Pad products",
     "store": "Walmart",
     "url": "https://www.walmart.com/search?q=pokemon+poke+pad+cards",
     "available": false,
-    "contentHash": "7cd953b92f70702f166d49ca50d64b356ef9f02f0a7ea7208bd146f4194f2a4f",
-    "checkedAt": 1794985946610
+    "contentHash": "a20f44ef240b0de33f1bf6a128bcfcb8d5a1f9c8f7b46f057ce9ddc527bc4be8",
+    "checkedAt": 1795019467842
   },
   "8bf0cc6de457f5f9": {
     "name": "Ascended Heroes products",
     "store": "Best Buy",
     "url": "https://www.bestbuy.com/site/searchpage.jsp?st=pokemon+ascended+heroes",
     "available": false,
-    "contentHash": "2afc852eb04fa4ed3d741bb10b3941035007bb3b403aa99d9f35668db1d793e7",
-    "checkedAt": 1794985946610,
+    "contentHash": "94e98ca1862962149a318e89db808c846adacb28f38d6912a80bbcf775665277",
+    "checkedAt": 1795019467842,
     "lastAlertAt": 1794353386036
   },
   "1b6d4f597cf69039": {
@@ -53,8 +53,8 @@
     "store": "Best Buy",
     "url": "https://www.bestbuy.com/site/searchpage.jsp?st=pokemon+surging+sparks",
     "available": false,
-    "contentHash": "9ab1edef59ffdcfbd060accaa24c258485511617ddf0a33ce5c4f9040ef35e20",
-    "checkedAt": 1794985946610,
+    "contentHash": "4d280d3bb64ed3462480ea72620d5d1fc46eb200ed6995fadab949508c4d4f21",
+    "checkedAt": 1795019467842,
     "lastAlertAt": 1793436476772
   },
   "f42875a16b2ba923": {
@@ -70,15 +70,15 @@
     "store": "GameStop",
     "url": "https://www.gamestop.com/search/?q=pokemon+phantasmal+flames",
     "available": false,
-    "contentHash": "2831a09f94baf56345d89b0ccbce103d5b81164cbf2f34a6abf2119ff3c476e9",
-    "checkedAt": 1794985946610
+    "contentHash": "8165329edd2792749fa9d2eb79ac54d09f4262a1ca4e835cb7e681b80eff63ba",
+    "checkedAt": 1795019467842
   },
   "27882461da13cea0": {
     "name": "Prismatic Evolutions products",
     "store": "GameStop",
     "url": "https://www.gamestop.com/search/?q=pokemon+prismatic+evolutions",
     "available": false,
-    "contentHash": "47dbb6db4027ff00589eca95e9a64fdd37420fcd8df94e4d92ed0457fb4d0543",
-    "checkedAt": 1794985946610
+    "contentHash": "d17ca06ffd2b15789fabca3b7d34bc892f270118682791166dc9eaf580cb64b0",
+    "checkedAt": 1795019467842
   }
 }
